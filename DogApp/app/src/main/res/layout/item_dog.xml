@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/img_ava"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:id="@+id/tv_life_span"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="life_span" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:id="@+id/tv_origin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="origin" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

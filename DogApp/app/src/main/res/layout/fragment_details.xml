@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".view.DetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Affenpinscher"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/balck"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="INFORMATION"
+            android:textColor="@color/balck"
+            android:textSize="26sp" />
+        <TextView
+            android:id="@+id/detail_lifeSpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="LifeSpan: 10 - 12 years"
+            android:textColor="@color/balck"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/detail_origin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="Origin: Germany, France"
+            android:textColor="@color/balck"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/detail_temperament"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Temperament: Stubborn, Curious, Playful, Adventurous, Active, Fun-loving"
+            android:textColor="@color/balck"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "465957613775",
+    "firebase_url": "https://diary-3a902.firebaseio.com",
+    "project_id": "diary-3a902",
+    "storage_bucket": "diary-3a902.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465957613775:android:5cd223948b08fa168bc7ba",
+        "android_client_info": {
+          "package_name": "com.example.diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465957613775-dhti2vb6hrj9bbvqava9bmgg3umil1nb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu3AyoVKDhtOOwhUS200JkAuMYOBi1zJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465957613775-dhti2vb6hrj9bbvqava9bmgg3umil1nb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
